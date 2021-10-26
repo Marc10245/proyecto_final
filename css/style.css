@@ -60,8 +60,49 @@ button a.button_orange {
     font-weight: normal;
     font-size: 15px;
     justify-content: center;
+}
+/* hasta aca esta subido al git  */
+
+.number1 {
+   
+    display: flex;
+    padding:  65px 90px 120px 165px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 100px;
+    
+
+
+}
+
+.section1_left h1 {
+    
+    
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #232C50;
+    margin-bottom: 28px;
     
 }
+.section1_left p {
+    
+width: 340px;
+font-size: 16px;
+line-height: 26px;
+display: flex;
+font-weight: bold;
+color: #000000;
+margin-bottom: 28px;
+font-weight: bold;
+text-align: left;
+
+}
+
+
+
 
 
 
