@@ -61,22 +61,20 @@ button a.button_orange {
     font-size: 15px;
     justify-content: center;
 }
-/* hasta aca esta subido al git  */
 
 .number1 {
-   
+    
     display: flex;
     padding:  65px 90px 120px 165px;
     width: 100%;
     justify-content: space-between;
     gap: 100px;
     
-
+    
 
 }
 
 .section1_left h1 {
-    
     
     font-weight: bold;
     font-size: 48px;
@@ -85,11 +83,10 @@ button a.button_orange {
     align-items: center;
     color: #232C50;
     margin-bottom: 28px;
-    
 }
-.section1_left p {
-    
-width: 340px;
+
+.section1_left p {    
+    width: 340px;
 font-size: 16px;
 line-height: 26px;
 display: flex;
@@ -97,15 +94,103 @@ font-weight: bold;
 color: #000000;
 margin-bottom: 28px;
 font-weight: bold;
-text-align: left;
 
+}
+
+/* hasta aca esta subido al git  */
+
+.number2 {
+display: flex;
+padding:  0px 90px 120px 165px;
+width: 100%;
+justify-content: space-between;
+gap: 150px;
+flex-direction: row;
+}
+
+.section2_left {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+
+}
+.section2_left h2 {
+align-items: center;
+color: #232851;
+display: flex;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 41px;
+margin-bottom: 36px;
+width: 400px;
+
+}
+.section2_left p {
+width: 337px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #000000;
+
+}
+
+.section2_rigth {
+display: flex;
+align-items: flex-start;
+flex-direction: row;
+gap: 20px;
+bottom: 18px;
+margin-top: 18px;
+}
+
+.botton{
+    color: white;
+    box-shadow: none;
+}
+
+.textos {
+    display: flex;
+    margin-bottom: 18px;
+    color: #323851;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: bold;
+}
+.texto_parrafo {
+    padding-left: 80px;
+    padding-right: 20px;
+    width: 458px;
+    margin-bottom: 30px;
+    display: flex;
+    font-size: 13px;
+    
 }
 
 
 
 
+.titulo{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 61px;
+    letter-spacing: -0.01em;
+    color: #242E53;
+    padding: 20px 100px 74px;
 
 
+}
 
-
+.number3 {
+    display: inline-flex;
+    align-items: center;
+}   
 
