@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Be Vietnam', sans-serif;
-    
+
 }
 
 a{
@@ -62,19 +62,24 @@ button a.button_orange {
     justify-content: center;
 }
 
-.number1 {
+
+
+.home {
     
     display: flex;
     padding:  65px 90px 120px 165px;
-    width: 100%;
+    width: 80%;
     justify-content: space-between;
     gap: 100px;
+    /* margin-left: 12%;
+    margin-right: 10%; */
+
     
     
 
 }
 
-.section1_left h1 {
+.frase_home h1 {
     
     font-weight: bold;
     font-size: 48px;
@@ -85,7 +90,7 @@ button a.button_orange {
     margin-bottom: 28px;
 }
 
-.section1_left p {    
+.frase_home p {    
     width: 340px;
 font-size: 16px;
 line-height: 26px;
@@ -97,49 +102,48 @@ font-weight: bold;
 
 }
 
-/* hasta aca esta subido al git  */
 
-.number2 {
-display: flex;
-padding:  0px 90px 120px 165px;
+.sobre_nosotros {
+    display: flex;
+    padding:  0px 90px 120px 165px;
 width: 100%;
 justify-content: space-between;
 gap: 150px;
 flex-direction: row;
 }
 
-.section2_left {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-
-
+.frame_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
 }
-.section2_left h2 {
-align-items: center;
-color: #232851;
-display: flex;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 41px;
-margin-bottom: 36px;
+.frame_left h2 {
+    align-items: center;
+    color: #232851;
+    display: flex;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 36px;
 width: 400px;
 
 }
-.section2_left p {
-width: 337px;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 24px;
-display: flex;
-align-items: center;
-color: #000000;
+.frame_left p {
+    width: 337px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
 
 }
 
-.section2_rigth {
+.frame_rigth {
 display: flex;
 align-items: flex-start;
 flex-direction: row;
@@ -153,7 +157,7 @@ margin-top: 18px;
     box-shadow: none;
 }
 
-.textos {
+.titulo_frame {
     display: flex;
     margin-bottom: 18px;
     color: #323851;
@@ -161,7 +165,7 @@ margin-top: 18px;
     line-height: 23px;
     font-weight: bold;
 }
-.texto_parrafo {
+.parrafo_frame {
     padding-left: 80px;
     padding-right: 20px;
     width: 458px;
@@ -171,10 +175,7 @@ margin-top: 18px;
     
 }
 
-
-
-
-.titulo{
+.titulo_testimonio {
     display: inline-flex;
     width: 100%;
     justify-content: center;    
@@ -185,12 +186,94 @@ margin-top: 18px;
     letter-spacing: -0.01em;
     color: #242E53;
     padding: 20px 100px 74px;
+        
+}
+/* hasta aca esta subido al git  */
 
+.testimonios {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.testimonios
+{
+    padding: 70px 80px;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    gap: 50px;    
+    width: 100%; 
+    text-align: center;  
+    font-size: 14px;
 
 }
 
-.number3 {
+.frame_testimonio h4 {
+    margin-top: 21px;
+    margin-bottom: 21px;
+    color:  #3F4868;
+    font-weight: bold;    
+
+}
+
+.frame_testimonio p{
+    color: #B9B9C1;
+    font-weight: bolder;
+}
+
+.button_testimonios {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.rectangulo {
+    margin-top: 180px;
     display: inline-flex;
-    align-items: center;
-}   
+    padding: 30px 0;
+    background-color: #F3613C;
+    justify-content: space-around;
+    width: 100%;       
+}
+.rectangulo h2 {
+    display: flex;
+    font-weight: bold;
+    color: white;
+    max-width: 430px;
+    font-size: 30px;    
+
+
+}
+.button_rectangulo{
+   
+    padding-top: 30px;
+}
+
+.button_rectangulo a{
+    color: #F3603B;
+    background: white;
+    display: flex;
+    padding: 8px 20px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+.footer {
+    display: flex;
+    background: #1E1E26;
+    width: 100%;
+    justify-content: space-between;
+    
+
+}
+.iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 100px;
+}
+
+
 
