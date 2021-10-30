@@ -43,6 +43,7 @@ header nav ul li{
     margin-left: 28px;
            
 }
+
 button {
 
     background: #F3603B;
@@ -62,7 +63,9 @@ button a.button_orange {
     justify-content: center;
 }
 
-
+.hamburguesa {
+        display: none;
+}
 
 .home {
     
@@ -100,6 +103,9 @@ color: #000000;
 margin-bottom: 28px;
 font-weight: bold;
 
+}
+.ilustracion2 {
+    display: none;
 }
 
 
@@ -265,6 +271,7 @@ margin-top: 18px;
     background: #1E1E26;
     width: 100%;
     justify-content: space-between;
+    padding: 20px 0;
     
 
 }
@@ -273,7 +280,106 @@ margin-top: 18px;
     flex-direction: column;
     justify-content: space-evenly;
     padding-left: 100px;
+    gap: 30px;
 }
 
 
 
+.lista_footer {
+
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+
+
+}
+.lista_footer ul{
+
+    list-style-type: none;
+    color: white;
+}
+
+.lista_footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 176.1%; 
+    font-size:  15px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 200px;
+    margin-right: 100px; 
+}
+input
+{
+    border: none;
+    padding: 0;
+} 
+.go {
+    background-color: white;
+    border-radius: none;
+}
+
+h6 {
+    text-align: right;
+    color: #8C8C94;
+    font-size: 12px;
+}
+
+@media screen and (max-device-width:375px) {
+
+    header{
+        padding-left: 10px;
+    }
+    header nav {
+        display: none;
+        
+    }
+    
+    header button {
+        display: none;
+    }
+.hamburguesa {
+    display: flex;
+    padding-left: 100px;
+}
+
+.home {
+    flex-direction: column-reverse;
+
+    padding-left: 10px;
+
+}
+.frase_home h1{
+    width: 370px;
+}
+.frase_home p{
+    width: 300px;
+}
+.ilustracion1 {
+    display: none;
+}
+.ilustracion2 {
+    display: flex;
+}
+.sobre_nosotros{
+    flex-direction: column;
+    padding-left: 10px;
+    width: 370px;
+}
+.frame_left{
+    width: 370px;
+}
+.titulo_testimonio{
+    text-align: center;
+}
+.testimonio {
+    display: flex;
+    flex-direction: column;
+}
+
+}
